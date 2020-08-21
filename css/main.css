@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url("../images/top.png");
+}
+
+nav {
+    display: block;
+    margin: 0px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li:first-child {
+    font-size: 1em;
+    font-weight: bold;
+}
+nav > ul > li:not(:last-child)::after {
+    content: "|";
+    margin: 8px;
+}
+
+main {
+    width: 800px;
+    margin: 64px auto;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+div.experience {
+    margin: 8px 0px;
+    padding: 16px;
+    border: 1px solid #eeeeee;
+}
+div.experience > img {
+    display: block;
+    clear: both;
+    margin-bottom: 8px;
+}
+div.experience > ul li {
+    padding: 4px;
+    color: gray;
+    font-size: 0.8em;
+}
+
+footer {
+    display: block;
+    padding: 32px;
+    border-top: 1px dotted lightgray;
+    color: lightblue;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    margin: 0px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4 {
+    color: darkblue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
