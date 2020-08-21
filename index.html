@@ -1,8 +1,37 @@
-<html>
+<html lang="en">
   <head>
     <title>ikorn | Welcome to my world.</title>
-    <link href="css/main.css" rel="stylesheet" />
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -10,70 +39,160 @@
       <nav>
         <img src="./images/logo.png" />
         <ul>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Experiences</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#experiences">Experiences</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Welcome.</h1>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      <h2>About me.</h2>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      <h2>Work Experiences.</h2>
-      <div class="experience">
-        <img src="./images/paidy.svg" height="60" />
-        <h4>Lead Engineer: Mobile Team</h4>
-        <ul>
-          <li>
-            Plan, Design, Develop, and Operate mobile products for Paidy Inc.
-          </li>
-          <li>iOS application: Swift, RxSwift.</li>
-          <li>Android application: Kotlin, RxJava, Jetpack.</li>
-        </ul>
+      <div id="welcome" class="content">
+        <h1>Welcome.</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
       </div>
-      <div class="experience">
-        <img src="./images/rakuten.svg" height="40" />
-        <h4>Vice Group Manager : Financial System Development Group 2</h4>
-        <ul>
-          <li>
-            Manage teams to develop and operate Rakuten's financial products.
-          </li>
-          <li>Recruit, educate members.</li>
-          <li>Make product roadmap and development schedule.</li>
-          <li>Promote security in app development</li>
-        </ul>
-        <h4>Team Manager : Financial System Development Group, Mobile Team</h4>
-        <ul>
-          <li>
-            Manage team to develop and operate Rakuten's financial products.
-          </li>
-        </ul>
-        <h4>Lead Engineer : Rakuten Card</h4>
-        <h4>Application Engineer : Rakuten Card</h4>
+      <div id="about" class="content">
+        <h1>About me.</h1>
+        <p>
+          <span>Me in 3 words: Aggressive, Flexible, Independent.</span>
+          <span>
+            I am a designer turned developer, turned manager, then turned
+            developer again. I love challenging new things and make things
+            better, as I did backend (hibernate/spring/JEE) → frontend
+            (JSF/php/vuejs) → mobile (both iOS and Android) → manager/architect
+            and finally back at what I like the most - mobile development. You
+            can say I am like a duck, can do many things but not specialised in
+            anything, but that is what I called `flexible`.
+          </span>
+          <span>
+            When it comes to work, I am quite `aggressive` to get thing done.
+            Even though that leads to a fight sometimes, but `If you know your
+            enemies and know yourself, you will not be imperiled in a hundred
+            battles. - Sūn Zǐ;`
+          </span>
+          <span>
+            Finally, I love working in a team, and always want to support all my
+            team members.
+          </span>
+        </p>
       </div>
-      <div class="experience">
-        <img src="./images/sakura.png" height="60" />
+
+      <div id="experiences" class="content">
+        <h1>Work Experiences.</h1>
+        <div id="work" class="carousel slide" data-ride="carousel">
+          <a
+            class="carousel-control-prev"
+            href="#work"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#work"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <ol class="carousel-indicators">
+            <li data-target="#work" data-slide-to="0" class="active"></li>
+            <li data-target="#work" data-slide-to="1"></li>
+            <li data-target="#work" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="text-center p-4">
+                <img src="./images/paidy.svg" height="40" />
+                <h4>Lead Engineer : Mobile Team</h4>
+                <ul class="text-left m-5">
+                  <li>
+                    Plan, develop and operate Paidy application both
+                    iOS/Android. Recruit mobile engineer (both iOS/Android) and
+                    team management.
+                  </li>
+
+                  <li>
+                    Redesign Android app using MVVM, AndroidX, LiveData, and
+                    Navigation Architecture Component.
+                  </li>
+                  <li>
+                    Add CI/CD for Android app using travis, fastlane, and
+                    firebase for test, release automation.
+                  </li>
+                  <li>
+                    Built internal tool using AppKit on mac to operate push
+                    notification.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="text-center p-4">
+                <img src="./images/rakuten.svg" height="40" />
+                <h4>
+                  Vice Group Manager : Financial Services Development Group 2
+                </h4>
+                <ul class="text-left m-5">
+                  <li>
+                    Lead and manage mobile application development (including
+                    iOS, Android and Windows) and its ecosystem for financial
+                    related business in Rakuten group.
+                  </li>
+                  <li>
+                    Security Lead for Financial Service Development Group2:
+                    Manage and promote security improvement in mobile related
+                    area.
+                  </li>
+                  <li>Functional source code reviewer.</li>
+                  <li>Recruit and educate members.</li>
+                </ul>
+                <h4>
+                  Team Manager, Smart Device Team
+                </h4>
+                <ul class="text-left m-5">
+                  <li>
+                    Lead and manage a team of 7-14 international members to
+                    design, develop and operate financial related applications
+                    both on iOS and Android, and related services.
+                  </li>
+                  <li>Source code reviewer (iOS/Android) for mobile team.</li>
+                  <li>Security lead for mobile team.</li>
+                </ul>
+                <h4>Application Engineer</h4>
+                <ul class="text-left m-5">
+                  <li>
+                    Responsible for Designing, Developing, and Operating Rakuten
+                    Card's system including email magazine targeting system,
+                    e-navi: an online member service for Rakuten Card and etc.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <img src="./images/sakura.png" height="40" />
+              <h4>System Administrator</h4>
+              <ul class="text-left m-5">
+                <li>
+                  Responsible for upkeep, configuration, and reliable operation
+                  of host systems and intra systems.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
