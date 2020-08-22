@@ -1,22 +1,270 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ikorn | Welcome to my world.</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <link href="css/main.css" rel="stylesheet" />
-    <!-- CSS only -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-
-    <!-- JS, Popper.js, and jQuery -->
+    <link href="css/index.css" rel="stylesheet" />
+    <title>ikornの楽園</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./images/logo.png" alt="ikornの楽園" />
+          </div>
+          <div class="col-sm-auto mt-3">
+            <nav>
+              <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work Experiences</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#hobby">Hobbies</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="pt-5">
+      <div class="container mt-5">
+        <div class="row pt-4 px-4">
+          <!-- about -->
+          <div id="about" class="content-card col">
+            <h1>About me</h1>
+            <hr />
+            <div>
+              <img src="./images/devil.png" width="150" style="float: right;" />
+              <p>
+                Me in 3 words: Aggressive, Flexible, Independent.
+              </p>
+              <p>
+                I am a designer turned developer, turned manager, then turned
+                developer again. I love challenging new things and make things
+                better, as I did backend (hibernate/spring/JEE) → frontend
+                (JSF/php/vuejs) → mobile (both iOS and Android) →
+                manager/architect and finally back at what I like the most -
+                mobile development. You can say I am like a duck, can do many
+                things but not specialised in anything, but that is what I
+                called `flexible`.
+              </p>
+              <p>
+                When it comes to work, I am quite `aggressive` to get thing
+                done. Even though that leads to a fight sometimes, but `If you
+                know your enemies and know yourself, you will not be imperiled
+                in a hundred battles. - Sūn Zǐ;`
+              </p>
+              <p>
+                Finally, I love working in a team, and always want to support
+                all my team members.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4 px-4">
+          <!-- work -->
+          <div id="work" class="content-card col">
+            <h1>Work Experiences</h1>
+            <hr />
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 work-box">
+                  <img src="./images/paidy.svg" alt="Paidy Inc." />
+                  <h3>Lead Mobile Engineer</h3>
+                  <span>Jan 2017-Present, Tokyo</span>
+                  <p>
+                    Plan, develop and operate Paidy application both iOS (Swift,
+                    RxSwift, MVC/MVVM)/Android (Kotlin, RxJava, MVVM, LiveData,
+                    Jetpack). Recruit mobile engineer (both iOS/Android) and
+                    team management.
+                  </p>
+                  <p>
+                    Redesign Android app using MVVM, AndroidX, LiveData, and
+                    Navigation Architecture Component.
+                  </p>
+                  <p>
+                    Add CI/CD for Android app using travis, fastlane, and
+                    firebase for test, release automation.
+                  </p>
+                  <p>
+                    App Integration with external services such as Mixpanel,
+                    Firebase Crashlytics, OneSignal.
+                  </p>
+                </div>
+                <div class="col-sm-12 work-box">
+                  <img src="./images/rakuten.svg" alt="Rakuten Inc." />
+                  <div id="rakuten" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#rakuten" data-slide-to="0" class="active"></li>
+                      <li data-target="#rakuten" data-slide-to="1"></li>
+                      <li data-target="#rakuten" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h3>
+                          Vice Group Manager : Financial Services Development
+                          Group 2
+                        </h3>
+                        <span>Feb 2016-Dec 2017, Tokyo</span>
+                        <p>
+                          Lead and manage mobile application development
+                          (including iOS, Android and Windows) and its ecosystem
+                          for financial related business in Rakuten group.
+                        </p>
+                        <p>
+                          Security Lead for Financial Service Development
+                          Group2: Manage and promote security improvement in
+                          mobile related area.
+                        </p>
+                        <p>Functional source code reviewer.</p>
+                        <p>Recruit and educate members.</p>
+                      </div>
+                      <div class="carousel-item">
+                        <h3>
+                          Team Manager, Smart Device Team
+                        </h3>
+                        <span>Feb 2015-Feb 2016, Tokyo</span>
+                        <p>
+                          Lead and manage a team of 7-14 international members
+                          to design, develop and operate financial related
+                          applications both on iOS and Android, and related
+                          services.
+                        </p>
+                        <p>
+                          Source code reviewer (iOS/Android) for mobile team.
+                        </p>
+                        <p>Security lead for mobile team.</p>
+                      </div>
+                      <div class="carousel-item">
+                        <h3>Application Engineer</h3>
+                        <span
+                          >Apr 2011-Feb 2015, Tokyo/Aliso Viejo, CA/Taipei</span
+                        >
+                        <p>
+                          Responsible for system integration between Rakuten
+                          Card Taiwan, Rakuten Taiwan and HP Taiwan (using SOAP
+                          and Java EE6).
+                        </p>
+                        <p>
+                          Responsible for establishing Rakuten Card USA,
+                          including system architecture planning, system
+                          integration with National Bank of Omaha, Point system
+                          implementation and operation. (Using C# and .NET
+                          framework for webservice)
+                        </p>
+                        <p>
+                          Responsible for Designing, Developing, and Operating
+                          Rakuten Card's system including email magazine
+                          targeting system, e-navi: an online member service for
+                          Rakuten Card and etc. (using Java EE6 ie. Java Batch,
+                          JSF)
+                        </p>
+                        <p>
+                          Develop and operate e-mail magazine system for Rakuten
+                          Card (using Spring/Hibernate for create Java batch to
+                          query data from MySQL/Microsoft SQL server/BI tools)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 work-box">
+                  <img src="./images/sakura.png" alt="Sakura Craypas KK." />
+                  <h3>
+                    System Administration in System Department (Part-time)
+                  </h3>
+                  <span>2009-2011, Osaka</span>
+                  <p>
+                    Responsible for upkeep, configuration, and reliable
+                    operation of host systems and intra systems.
+                  </p>
+                </div>
+                <div class="col-sm-12 work-box">
+                  <img
+                    src="./images/hutch.gif"
+                    alt="Hutchison Wireless and Multimedia Ltd."
+                  />
+                  <h3>
+                    Web Application Engineer
+                  </h3>
+                  <span>March 2004-Sep 2004, Bangkok</span>
+                  <p>
+                    Responsible for designing and developing global positioning
+                    system-based web application for enterprise.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4 px-4">
+          <!-- activity -->
+          <div id="skill" class="content-card col">
+            <h1>Skills</h1>
+            <hr />
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 work-box">
+                  <h3>Technology stack/architecture</h3>
+                  <ul>
+                    <li>iOS/mac: Swift, UIKit, AppKit, RxSwift, MVC/MVVM</li>
+                    <li>
+                      Android: Java, Kotlin, RxJava, MVVM, LiveData, Jetpack
+                    </li>
+                    <li>
+                      Web: HTML, CSS, Javascript, JSP, JSF, Vue.js, Nuxt.js, PHP
+                    </li>
+                    <li>
+                      Backend: Java EE, Spring, Hibernate, RESTful Webservice,
+                      SOAP Webservice
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 work-box">
+                  <h3>Tools</h3>
+                  <ul>
+                    <li>Development: Xcode, Android Studio, Netbeans, Visual Studio Code</li>
+                    <li>Design: Sketch, Photoshop, Illustrator, Indesign</li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 work-box">
+                  <h3>Languages</h3>
+                  <ul>
+                    <li>Thai: Native</li>
+                    <li>English: Excellent (TOEIC 935)</li>
+                    <li>Japanese: Excellent (JLPT level 1)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4 px-4">
+          <!-- hobby -->
+          <div id="hobby" class="content-card col">
+            <h1>Hobbies</h1>
+            <hr />
+            <div>
+              <ul>
+                <li>Cooking</li>
+                <li>Photography</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>(C)2020 ikorn. All rights reserved.</footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -32,171 +280,5 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-  </head>
-
-  <body>
-    <header>
-      <nav>
-        <img src="./images/logo.png" />
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#experiences">Experiences</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div id="welcome" class="content">
-        <h1>Welcome.</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-      </div>
-      <div id="about" class="content">
-        <h1>About me.</h1>
-        <p>
-          <span>Me in 3 words: Aggressive, Flexible, Independent.</span>
-          <span>
-            I am a designer turned developer, turned manager, then turned
-            developer again. I love challenging new things and make things
-            better, as I did backend (hibernate/spring/JEE) → frontend
-            (JSF/php/vuejs) → mobile (both iOS and Android) → manager/architect
-            and finally back at what I like the most - mobile development. You
-            can say I am like a duck, can do many things but not specialised in
-            anything, but that is what I called `flexible`.
-          </span>
-          <span>
-            When it comes to work, I am quite `aggressive` to get thing done.
-            Even though that leads to a fight sometimes, but `If you know your
-            enemies and know yourself, you will not be imperiled in a hundred
-            battles. - Sūn Zǐ;`
-          </span>
-          <span>
-            Finally, I love working in a team, and always want to support all my
-            team members.
-          </span>
-        </p>
-      </div>
-
-      <div id="experiences" class="content">
-        <h1>Work Experiences.</h1>
-        <div id="work" class="carousel slide" data-ride="carousel">
-          <a
-            class="carousel-control-prev"
-            href="#work"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#work"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-          <ol class="carousel-indicators">
-            <li data-target="#work" data-slide-to="0" class="active"></li>
-            <li data-target="#work" data-slide-to="1"></li>
-            <li data-target="#work" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="text-center p-4">
-                <img src="./images/paidy.svg" height="40" />
-                <h4>Lead Engineer : Mobile Team</h4>
-                <ul class="text-left m-5">
-                  <li>
-                    Plan, develop and operate Paidy application both
-                    iOS/Android. Recruit mobile engineer (both iOS/Android) and
-                    team management.
-                  </li>
-
-                  <li>
-                    Redesign Android app using MVVM, AndroidX, LiveData, and
-                    Navigation Architecture Component.
-                  </li>
-                  <li>
-                    Add CI/CD for Android app using travis, fastlane, and
-                    firebase for test, release automation.
-                  </li>
-                  <li>
-                    Built internal tool using AppKit on mac to operate push
-                    notification.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="carousel-item text-center">
-              <div class="text-center p-4">
-                <img src="./images/rakuten.svg" height="40" />
-                <h4>
-                  Vice Group Manager : Financial Services Development Group 2
-                </h4>
-                <ul class="text-left m-5">
-                  <li>
-                    Lead and manage mobile application development (including
-                    iOS, Android and Windows) and its ecosystem for financial
-                    related business in Rakuten group.
-                  </li>
-                  <li>
-                    Security Lead for Financial Service Development Group2:
-                    Manage and promote security improvement in mobile related
-                    area.
-                  </li>
-                  <li>Functional source code reviewer.</li>
-                  <li>Recruit and educate members.</li>
-                </ul>
-                <h4>
-                  Team Manager, Smart Device Team
-                </h4>
-                <ul class="text-left m-5">
-                  <li>
-                    Lead and manage a team of 7-14 international members to
-                    design, develop and operate financial related applications
-                    both on iOS and Android, and related services.
-                  </li>
-                  <li>Source code reviewer (iOS/Android) for mobile team.</li>
-                  <li>Security lead for mobile team.</li>
-                </ul>
-                <h4>Application Engineer</h4>
-                <ul class="text-left m-5">
-                  <li>
-                    Responsible for Designing, Developing, and Operating Rakuten
-                    Card's system including email magazine targeting system,
-                    e-navi: an online member service for Rakuten Card and etc.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="carousel-item text-center">
-              <img src="./images/sakura.png" height="40" />
-              <h4>System Administrator</h4>
-              <ul class="text-left m-5">
-                <li>
-                  Responsible for upkeep, configuration, and reliable operation
-                  of host systems and intra systems.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer>
-      (C) 2020 ikorn. All rights reserved.
-    </footer>
   </body>
 </html>

@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("../images/top.png") top center fixed no-repeat;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  padding: 1em;
+  background: rgba(48, 12, 116, 0.7);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+nav ul li:not(:first-child) {
+  margin-left: 1em;
+}
+
+footer {
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/* --------- */
+.content-card {
+  padding: 1em;
+  margin-right: 1em;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1em;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.content-card > div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+}
+.work-box {
+  padding: 1em;
+}
+.work-box img {
+  height: 50px;
+}
+.work-box h3 {
+  margin-top: 1em;
+  color: royalblue;
+  font-size: 1.2em;
+  font-weight: bolder;
+  border-bottom: 1px dotted #666;
+}
+.work-box h3 + span {
+  color: #666;
+  font-weight: bold;
+}
+.carousel-indicators {
+  margin-bottom: -1.5em;
+}
+.carousel-indicators li {
+  background: gray;
+  background-clip: padding-box;
+}
+
+/* --------- */
+h1 {
+  color: darkslategrey;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+}
+h1 + hr {
+  height: 1px;
+  margin-left: -1em;
+  margin-right: -1em;
+}
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: white;
+}
